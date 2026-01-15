@@ -4,8 +4,7 @@ from datetime import datetime
 
 import pandas as pd
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-LOG_PATH = os.path.join(BASE_DIR, "monitoring_logs.csv")
+LOG_PATH = "C:/Users/HEMA/C Program/insurance/monitoring_logs.csv"
 
 def log_prediction(
     model_version,
